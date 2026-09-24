@@ -36,7 +36,7 @@ export const company = {
   founded: '2024',
   hq: 'India',
   usPresence: 'California & Texas',
-  email: 'Allied@ADBPrivateLimited.online',
+  email: 'allied@advpvtld.online',
   phone: '+91 97406 98592',
   positioning: 'Healthcare Revenue Cycle Management, Managed Services & Technology Solutions',
   altPositioning: 'Building the Next Generation of Healthcare Revenue Cycle Management',
@@ -498,10 +498,10 @@ export interface Leader {
 }
 
 export const leaders: Leader[] = [
-  { name: 'Anand Velu', role: 'Owner & Investor', photo: null },
-  { name: 'Mega Shyam', role: 'Founder & CEO', photo: null },
-  { name: 'Saravanan', role: 'COO & Internal Management / Employee Operations Head', photo: null },
-  { name: 'Sasi', role: 'COO / Internal Management / Employee Operations', photo: null },
+  { name: 'Anand Velu', role: 'Owner & Investor', photo:'/and.jpg' },
+  { name: 'Mega Shyam', role: 'Founder & CEO','/meg.jpg'  },
+  { name: 'Saravanan', role: 'COO & Internal Management / Employee Operations Head', photo:'/sar.jpg' },
+  { name: 'Mytheli', role: 'COO / Finance / Employee Operations', photo: null },
 ];
 
 // ─── Capabilities (placeholders) ───
