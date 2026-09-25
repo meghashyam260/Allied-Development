@@ -62,7 +62,7 @@ export function LeadershipPage() {
                 <p className="mt-1.5 text-sm text-primary-700 font-medium leading-tight">{leader.role}</p>
 
                 
-              {/* Leadership Bio */}
+       {/* Leadership Bio */}
 <div className="mt-4 rounded-lg bg-ink-50/60 px-4 py-3">
   <p className="text-sm text-ink-600 leading-relaxed">
     {leader.bio}
