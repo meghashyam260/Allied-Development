@@ -501,19 +501,19 @@ export const leaders = [
   {
     name: 'Anand Velu',
     role: 'Owner & Investor',
-    photo: '/and.jpg',
+    photo: `${import.meta.env.BASE_URL}and.jpg`,
     bio: 'Anand Velu is the Owner and Investor at ADV, bringing over 23 years of experience in healthcare, including experience with healthcare initiatives in India’s government sector.',
   },
   {
     name: 'Mega Shyam',
     role: 'Founder & CEO',
-    photo: '/meg.jpg',
+    photo: `${import.meta.env.BASE_URL}meg.jpg`,
     bio: 'Mega Shyam is the Founder and CEO of ADV. He leads sales and partnership initiatives, focusing on business development and strategic relationships.',
   },
   {
     name: 'Saravanan',
     role: 'COO & Internal Management / Employee Operations Head',
-    photo: '/sar.jpg',
+    photo: `${import.meta.env.BASE_URL}sar.jpg`,
     bio: 'Saravanan oversees supply chain management and internal operations at ADV, supporting operational coordination and employee management.',
   },
   {
@@ -523,7 +523,6 @@ export const leaders = [
     bio: 'Mytheli oversees finance and investment decisions at ADV, bringing more than 18 years of professional experience in financial and operational management.',
   },
 ];
-
 // ─── Capabilities (placeholders) ───
 export interface Capability {
   label: string;
