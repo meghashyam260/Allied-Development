@@ -36,7 +36,7 @@ export const company = {
   founded: '2024',
   hq: 'India',
   usPresence: 'California & Texas',
-  email: 'allied@advpvtld.online',
+  email: 'Allied@ADBPrivateLimited.online',
   phone: '+91 97406 98592',
   positioning: 'Healthcare Revenue Cycle Management, Managed Services & Technology Solutions',
   altPositioning: 'Building the Next Generation of Healthcare Revenue Cycle Management',
