@@ -61,16 +61,17 @@ export function LeadershipPage() {
                 <h3 className="mt-5 text-lg font-bold text-ink-900">{leader.name}</h3>
                 <p className="mt-1.5 text-sm text-primary-700 font-medium leading-tight">{leader.role}</p>
 
-                {/* Bio placeholder */}
-                <div className="mt-4 rounded-lg bg-ink-50/60 px-4 py-3">
-                  <p className="text-xs text-ink-400">[ADD LEADERSHIP BIO]</p>
-                </div>
-              </div>
-            ))}
+                
+              {/* Leadership Bio */}
+<div className="mt-4 rounded-lg bg-ink-50/60 px-4 py-3">
+  <p className="text-sm text-ink-600 leading-relaxed">
+    {leader.bio}
+  </p>
+</div>
+        ))}
           </div>
-
-          <p className="mt-10 text-center text-sm text-ink-400 max-w-2xl mx-auto animate-on-scroll">
-            Biographies, qualifications, and photos will be added as they are confirmed. ADV does not invent biographies, qualifications, education, certifications, years of experience, or previous companies.
+       <p className="mt-10 text-center text-sm text-ink-400 max-w-2xl mx-auto animate-on-scroll">
+           Biographies, qualifications, and photos will be added as they are confirmed. ADV does not invent biographies, qualifications, education, certifications, years of experience, or previous companies.
           </p>
         </div>
       </section>
