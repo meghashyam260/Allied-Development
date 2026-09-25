@@ -498,10 +498,10 @@ export interface Leader {
 }
 
 export const leaders: Leader[] = [
-  { name: 'Anand Velu', role: 'Owner & Investor','and.jpg' },
-  { name: 'Mega Shyam', role: 'Founder & CEO','meg.jpg'  },
-  { name: 'Saravanan', role: 'COO & Internal Management / Employee Operations Head','sar.jpg' },
-  { name: 'Mytheli', role: 'COO / Finance / Employee Operations',null },
+  { name: 'Anand Velu', role: 'Owner & Investor', photo:'and.jpg' },
+  { name: 'Mega Shyam', role: 'Founder & CEO', photo:'meg.jpg'  },
+  { name: 'Saravanan', role: 'COO & Internal Management / Employee Operations Head', photo:'sar.jpg' },
+  { name: 'Mytheli', role: 'COO / Finance / Employee Operations', photo: null },
 ];
 
 // ─── Capabilities (placeholders) ───
