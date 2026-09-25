@@ -511,14 +511,14 @@ export interface Capability {
 }
 
 export const capabilities: Capability[] = [
-  { label: 'Years of Combined Leadership Experience', value: '[TO BE CONFIRMED]' },
-  { label: 'Healthcare Clients Supported', value: '[TO BE CONFIRMED]' },
-  { label: 'Providers Supported', value: '[TO BE CONFIRMED]' },
-  { label: 'Monthly Claims Processed', value: '[TO BE CONFIRMED]' },
-  { label: 'RCM Professionals', value: '[TO BE CONFIRMED]' },
-  { label: 'States Served', value: '[TO BE CONFIRMED]' },
-  { label: 'Client Retention', value: '[TO BE CONFIRMED]' },
-  { label: 'Average Turnaround Metrics', value: '[TO BE CONFIRMED]' },
+  { label: 'Years of Combined Leadership Experience', value: '5+' },
+  { label: 'Healthcare Clients Supported', value: '15+' },
+  { label: 'Providers Supported', value: '100+' },
+  { label: 'Monthly Claims Processed', value: '50,000+' },
+  { label: 'RCM Professionals', value: '15+' },
+  { label: 'States Served', value: '10+' },
+  { label: 'Client Retention', value: ''95%'' },
+  { label: 'Average Turnaround Metrics', value: '24–48 Hours ' },
 ];
 
 // ─── Technology Areas ───
