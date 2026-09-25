@@ -498,9 +498,9 @@ export interface Leader {
 }
 
 export const leaders: Leader[] = [
-  { name: 'Anand Velu', role: 'Owner & Investor', photo:'and.jpg' },
-  { name: 'Mega Shyam', role: 'Founder & CEO', photo:'meg.jpg'  },
-  { name: 'Saravanan', role: 'COO & Internal Management / Employee Operations Head', photo:'sar.jpg' },
+  { name: 'Anand Velu', role: 'Owner & Investor', photo:'/ADVimages/and.jpg' },
+  { name: 'Mega Shyam', role: 'Founder & CEO', photo:'/ADVimages/meg.jpg'  },
+  { name: 'Saravanan', role: 'COO & Internal Management / Employee Operations Head', photo:'/ADVimages/sar.jpg' },
   { name: 'Mytheli', role: 'COO / Finance / Employee Operations', photo: null },
 ];
 
