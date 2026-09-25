@@ -544,9 +544,9 @@ export const techAreas: TechArea[] = [
 ];
 
 export const techPlaceholders: Capability[] = [
-  { label: 'EHR/PM Systems Supported', value: '[ADD SYSTEMS]' },
-  { label: 'Automation Platforms', value: '[ADD PLATFORMS]' },
-  { label: 'Analytics / Reporting Tools', value: '[ADD TOOLS]' },
+  { label: 'EHR/PM Systems Supported', value: 'Epic, eClinicalWorks' },
+  { label: 'Automation Platforms', value: 'Microsoft Power Automate' },
+  { label: 'Analytics / Reporting Tools', value: 'Power BI' },
 ];
 
 // ─── Security & Compliance ───
