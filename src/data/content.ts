@@ -497,11 +497,31 @@ export interface Leader {
   photo: string | null;
 }
 
-export const leaders: Leader[] = [
-  { name: 'Anand Velu', role: 'Owner & Investor', photo:'/ADVimg/and.jpg' },
-  { name: 'Mega Shyam', role: 'Founder & CEO', photo:'/ADVimg/meg.jpg'  },
-  { name: 'Saravanan', role: 'COO & Internal Management / Employee Operations Head', photo:'/ADVimg/sar.jpg' },
-  { name: 'Mytheli', role: 'COO / Finance / Employee Operations', photo: null },
+export const leaders = [
+  {
+    name: 'Anand Velu',
+    role: 'Owner & Investor',
+    photo: '/and.jpg',
+    bio: 'Anand Velu is the Owner and Investor at ADV, bringing over 23 years of experience in healthcare, including experience with healthcare initiatives in India’s government sector.',
+  },
+  {
+    name: 'Mega Shyam',
+    role: 'Founder & CEO',
+    photo: '/meg.jpg',
+    bio: 'Mega Shyam is the Founder and CEO of ADV. He leads sales and partnership initiatives, focusing on business development and strategic relationships.',
+  },
+  {
+    name: 'Saravanan',
+    role: 'COO & Internal Management / Employee Operations Head',
+    photo: '/sar.jpg',
+    bio: 'Saravanan oversees supply chain management and internal operations at ADV, supporting operational coordination and employee management.',
+  },
+  {
+    name: 'Mytheli',
+    role: 'COO / Finance / Employee Operations',
+    photo: '',
+    bio: 'Mytheli oversees finance and investment decisions at ADV, bringing more than 18 years of professional experience in financial and operational management.',
+  },
 ];
 
 // ─── Capabilities (placeholders) ───
