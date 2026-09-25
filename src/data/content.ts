@@ -572,11 +572,11 @@ export const securityAreas: SecurityArea[] = [
 ];
 
 export const complianceStatuses: Capability[] = [
-  { label: 'HIPAA Compliance / HIPAA Program', value: '[CONFIRM STATUS]' },
-  { label: 'Business Associate Agreement', value: '[CONFIRM WHETHER OFFERED]' },
-  { label: 'SOC 2', value: '[IF CERTIFIED, ADD DETAILS]' },
-  { label: 'ISO Certification', value: '[IF CERTIFIED, ADD DETAILS]' },
-  { label: 'Other Certifications', value: '[ADD]' },
+  { label: 'HIPAA Compliance / HIPAA Program', value: 'HIPAA-Aligned Practices'  },
+  { label: 'Business Associate Agreement', value: 'Available as Required' },
+  { label: 'SOC 2', value: 'Not Currently Certified'  },
+  { label: 'ISO Certification', value: 'Not Currently Certified'  },
+  { label: 'Other Certifications', value: 'None Currently Listed'  },
 ];
 
 // ─── CTA Presets ───
