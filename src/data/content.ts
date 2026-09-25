@@ -517,8 +517,8 @@ export const capabilities: Capability[] = [
   { label: 'Monthly Claims Processed', value: '50,000+' },
   { label: 'RCM Professionals', value: '15+' },
   { label: 'States Served', value: '10+' },
-  { label: 'Client Retention', value: ''95%'' },
-  { label: 'Average Turnaround Metrics', value: '24–48 Hours ' },
+  { label: 'Client Retention', value: '95%' },
+  { label: 'Average Turnaround Metrics', value: '24–48 Hours' },
 ];
 
 // ─── Technology Areas ───
