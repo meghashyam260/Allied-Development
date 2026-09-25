@@ -68,14 +68,15 @@ export function LeadershipPage() {
     {leader.bio}
   </p>
 </div>
-        ))}
-          </div>
-       <p className="mt-10 text-center text-sm text-ink-400 max-w-2xl mx-auto animate-on-scroll">
-           Biographies, qualifications, and photos will be added as they are confirmed. ADV does not invent biographies, qualifications, education, certifications, years of experience, or previous companies.
-          </p>
         </div>
-      </section>
+      ))}
+    </div>
 
+    <p className="mt-10 text-center text-sm text-ink-400 max-w-2xl mx-auto animate-on-scroll">
+      Biographies, qualifications, and photos will be added as they are confirmed. ADV does not invent biographies, qualifications, education, certifications, years of experience, or previous companies.
+    </p>
+  </div>
+</section>
       {/* Values */}
       <section className="py-20 lg:py-28 bg-ink-50/60 relative overflow-hidden">
         <div className="absolute inset-0 bg-grid opacity-20" />
