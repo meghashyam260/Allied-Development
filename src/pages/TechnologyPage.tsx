@@ -108,42 +108,46 @@ export function TechnologyPage() {
         </div>
       </section>
 
-      {/* Placeholders */}
-      <section className="py-20 lg:py-28 bg-white">
-        <div className="container-adv">
-          <SectionHeader
-            eyebrow="Systems & Platforms"
-            title="Technology Stack Information"
-            description="Specific systems and platforms will be listed as they are confirmed. ADV does not claim specific integrations unless confirmed."
-          />
+    
+{/* Technology Stack */}
+<section className="py-20 lg:py-28 bg-white">
+  <div className="container-adv">
+    <SectionHeader
+      eyebrow="Systems & Platforms"
+      title="Technology Stack Information"
+      description="Our technology stack supports efficient healthcare revenue cycle operations through EHR/PM systems, workflow automation, and analytics."
+    />
 
-          <div className="mt-12 max-w-4xl mx-auto">
-            <div className="grid gap-5 sm:grid-cols-3">
-              {techPlaceholders.map((item, i) => (
-                <div
-                  key={item.label}
-                  className="card text-center animate-on-scroll"
-                  style={{ transitionDelay: `${i * 80}ms` }}
-                >
-                  <div className="flex h-12 w-12 mx-auto items-center justify-center rounded-xl bg-ink-50 text-ink-400">
-                    <Server className="h-6 w-6" />
-                  </div>
-                  <p className="mt-4 text-xs font-semibold uppercase tracking-wider text-ink-400">
-                    {item.label}
-                  </p>
-                  <p className="mt-3 text-base font-bold text-primary-700 font-display">
-                    {item.value}
-                  </p>
-                </div>
-              ))}
+    <div className="mt-12 max-w-4xl mx-auto">
+      <div className="grid gap-5 sm:grid-cols-3">
+        {techPlaceholders.map((item, i) => (
+          <div
+            key={item.label}
+            className="card text-center animate-on-scroll"
+            style={{ transitionDelay: `${i * 80}ms` }}
+          >
+            <div className="flex h-12 w-12 mx-auto items-center justify-center rounded-xl bg-ink-50 text-ink-400">
+              <Server className="h-6 w-6" />
             </div>
 
-            <p className="mt-8 text-center text-sm text-ink-400 max-w-2xl mx-auto">
-              EHR/PM systems, automation platforms, and analytics tools will be listed here once confirmed. ADV does not claim specific integrations unless verified.
+            <p className="mt-4 text-xs font-semibold uppercase tracking-wider text-ink-400">
+              {item.label}
+            </p>
+
+            <p className="mt-3 text-base font-bold text-primary-700 font-display">
+              {item.value}
             </p>
           </div>
-        </div>
-      </section>
+        ))}
+      </div>
+
+      <p className="mt-8 text-center text-sm text-ink-400 max-w-2xl mx-auto">
+        ADV utilizes Epic and eClinicalWorks for EHR/PM workflows, Microsoft Power Automate for workflow automation, and Power BI for analytics and reporting.
+      </p>
+    </div>
+  </div>
+</section>
+```
 
       <CtaSection
         title="Interested in Technology-Enabled RCM?"
